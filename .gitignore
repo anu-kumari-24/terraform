@@ -1,0 +1,22 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore Terraform directories
+terraform-env/environment/dev/.terraform/
+terraform-env/environment/dev/.terraform/providers/
+terraform-env/environment/dev/.terraform/providers/registry.terraform.io/hashicorp/azurerm/
+
+# Ignore Terraform state and backup files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore variable files containing sensitive information
+*.tfvars
+*.tfvars.json
+
+
+# Ignore logs
+*.log
